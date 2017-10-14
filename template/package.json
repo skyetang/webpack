@@ -15,7 +15,12 @@
   },
   "dependencies": {
     "vue": "^2.4.2"{{#router}},
-    "vue-router": "^2.7.0"{{/router}}
+    "vue-router": "^2.7.0"{{/router}},
+    "axios": "~0.16.2",
+    "element-ui": "~1.4.6",
+    "front-business": "^1.1.66",
+    "front-common": "^1.2.36",
+    "qs": "~6.5.1",
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -97,7 +102,9 @@
     "webpack": "^3.6.0",
     "webpack-dev-middleware": "^1.12.0",
     "webpack-hot-middleware": "^2.18.2",
-    "webpack-merge": "^4.1.0"
+    "webpack-merge": "^4.1.0",
+    "less": "^2.3.1",
+    "less-loader": "^4.0.5",
   },
   "engines": {
     "node": ">= 4.0.0",
